@@ -1,0 +1,15 @@
+{
+  "name": "brute-force-protected-login",
+  "version": "1.0.0",
+ "scripts": {
+    "install-client": "cd client && npm install",
+    "install-server": "cd server && npm install",
+    "build": "npm run install-client && cd client && npm run build",
+    "start": "cd server && npm start"
+  },
+
+ "engines": {
+  "node": "22.x"
+}
+
+}
